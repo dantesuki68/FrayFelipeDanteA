@@ -1,0 +1,176 @@
+body{
+	background:#fff;
+	margin:0px;
+	background-image:url("IMAGENES\LOGO.PNG");
+}
+nav img{
+	height:100px;
+	width:100px;
+	float:left;
+	margin:5px;
+}
+header nav{
+	background:#2E2EFE;
+	overflow:hidden;
+	margin-top:0px;
+}
+header nav ul{
+	list-style:none;
+}
+header nav ul li{
+	float:left;
+	margin-right:40px;
+}
+header nav ul li a{
+	padding:30px 15px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	background:;
+	margin-bottom:20px;
+
+
+}
+header nav ul li a:hover{
+	background:#5882FA;
+}
+.slider{
+	margin-top:20px;
+	width:100%;
+	overflow:hidden;
+	height:800px;
+	border-radius:50px;
+	border:1px solid black;
+}
+.slider ul{
+	padding:0;
+	display:flex;
+	width:400%;
+	animation:cambio 10s infinite alternate;
+	height:400px;
+}
+.slider li{
+	list-style:none;
+	width:100%;
+	height:350px;
+
+}
+.slider img{
+	width:100%;
+	
+}
+@keyframes cambio{
+	0%{margin-left:0;}
+	20%{margin-left:0;}
+	25%{margin-left:-100%;}
+	45%{margin-left:-100%;}
+	50%{margin-left:-200%;}
+	70%{margin-left:-200%;}
+	75%{margin-left:-300%;}
+	75%{margin-left:-300%;}	
+}
+
+.caja{
+	width:100%;
+	
+	margin-top:20px;
+
+}
+.caja1{
+	height:500px;
+	width:25%;
+	float:left;
+	background:#F2F2F2;
+	margin-left:6%;
+	border:1px solid black;
+	color:#000000;
+	box-shadow:-50px 20px 5px #585858;
+}
+.caja1 img{
+	margin-top:40px;
+}
+.caja2{
+	height:500px;
+	width:25%;
+	float:left;
+	background:#F2F2F2;
+	margin-left:6%;
+	border:1px solid black;
+	color:#000;
+	box-shadow:-50px 20px 5px #585858;;
+}
+.caja2 img{
+	margin-top:30px;
+}
+.caja3{
+	height:500px;
+	width:26%;
+	float:left;
+	background:#F2F2F2;
+	margin-left:6%;
+	border:1px solid black;
+	color:#000;
+	box-shadow:-50px 20px 5px #585858;;
+}
+.historia{
+	width:100%;
+	background:#FE642E;
+	height:400px;
+	margin-top:580px;
+}
+.phistoria{
+	width:55%;
+	margin-left:5%;
+	margin-top:10px;
+	color:#fff;
+	float:left;
+}
+.ihistoria{
+	width:35%;
+	float:left;
+}
+.historiasfj{
+	width:100%;
+	margin-top:20px;
+	
+}
+.phistoriasfj{
+	width:55%;
+	margin-right:5%;
+	margin-top:10px;
+	float:right;
+}
+.ihistoriasfj{
+	width:35%;
+	float:right;
+}
+.c{
+	width:100%;
+	height:500px;
+	margin-top:100px;
+}
+.costos{
+	width:10%;
+	height:200px;
+	margin-left:5%;
+	margin-top:40px;
+	float:left;
+	background:#0040FF;
+}
+.costosc{
+	width:10%;
+	height:200px;
+	margin-top:40px;
+	padding-left:30px;
+	float:left;
+	background:#0040FF;
+}
+.c img{
+	float:right;
+	width:;
+}
+.ci{
+	float:left;
+	margin-left:5%;
+	margin-top:270px;
+}
